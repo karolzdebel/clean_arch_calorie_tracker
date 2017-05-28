@@ -24,8 +24,6 @@ public class AddFoodFragment extends Fragment{
     Button addButton;
     @BindView(R.id.input_name)
     EditText inputNameField;
-    @BindView(R.id.input_cal)
-    EditText inputCalField;
     @BindView(R.id.input_carb)
     EditText inputCarbField;
     @BindView(R.id.input_fat)
