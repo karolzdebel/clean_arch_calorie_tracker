@@ -87,6 +87,7 @@
         android:layout_below="@id/macros_info"
         android:layout_width="128dp"
         android:layout_height="wrap_content"
+        android:clickable="true"
         android:text="Add" />
 
 </RelativeLayout>

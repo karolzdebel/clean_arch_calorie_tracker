@@ -18,6 +18,14 @@ public class Food {
         this.protein = new Protein(proteinCount);
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public int getTotalCarb(){
         return carb.getCount();
     }
